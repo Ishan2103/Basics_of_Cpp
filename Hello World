@@ -1,0 +1,11 @@
+//Name - Ishan Danech
+//PRN - 24070123047
+//Aim - Print Hello World
+#include <iostream>
+using namespace std;
+int main() {
+    
+    cout << "Hello World";
+
+    return 0;
+}
