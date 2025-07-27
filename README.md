@@ -1,22 +1,28 @@
-#Hello_World-Calculator
-Experiment_1
+Overview
+This repository contains two basic C++ programs designed for beginners. The first program introduces console output using cout, while the second demonstrates user input and basic arithmetic operations using cin. These foundational exercises help new learners become familiar with C++ syntax, structure, and standard input/output operations.
 
-AIM -
-To Print "Hello World" and program a simple calculator in C++
+Program 1: Hello World and Introduction
+Purpose
+This program demonstrates how to display messages on the console using the cout stream. It prints a greeting followed by a name, serving as an introductory exercise to C++ programming and console output.
 
-Software used -
-Online Compiler (Programiz)
+Concepts Covered
 
-Theory -
-C++ is a general-purpose, high-performance programming language that builds on the foundation of the C language. Developed by Bjarne Stroustrup in the early 1980s at Bell Labs, C++ is a cross-platform language used to create high-performance applications. It supports object-oriented programming, making it a versatile tool for various types of software development.
+Standard Library Usage: Includes necessary libraries for input/output functionality.
+Program Entry Point: Uses the main function as the starting point of execution.
+Console Output: Utilizes cout to print text to the terminal.
+Output Formatting: Demonstrates how to organize output on multiple lines.
+Program Termination: Ends with return 0; to indicate successful execution.
+Program 2: Arithmetic Operations
+Purpose
+This program accepts two floating-point numbers as input from the user and performs four basic arithmetic operations: addition, subtraction, multiplication, and division. The results are then printed to the console.
 
-This experiment consists of two practicals namely printing of "Hello World" and making of calculator program.
+Concepts Covered
 
-Experiment 1a: Hello, World! -
-In the hello world program , the cout function from the iostream library is commonly used to print output to the console. The iostream library in C++ is a part of the Standard Library and provides functionalities for input and output operations.The using namespace std; directive is used to avoid the need to prefix standard library names with std::.
-
-Experiment 1b: Calculator -
-Basic airthmetic operations(+,-,/,*) were used to create the calculator program. While cin function is used to recive inputs from the user.
-
-Conclusion -
-We learnt to use the basic functions of C++.
+User Input: Uses the cin stream to accept input from the user.
+Data Types: Employs the float data type to handle both integers and decimal values.
+Arithmetic Operations: Demonstrates use of addition (+), subtraction (-), multiplication (*), and division (/) operators.
+Variables: Stores results of calculations in separate variables.
+Operator Precedence: Reinforces understanding of how operations are evaluated.
+Input Validation: Highlights the need to handle division by zero appropriately.
+Conclusion
+These two C++ programs provide a basic introduction to input/output operations and arithmetic processing. The first program emphasizes formatting and console output, while the second builds on that foundation by incorporating user input, calculations, and conditional logic. Together, they form a solid starting point for understanding C++ syntax and program flow.
